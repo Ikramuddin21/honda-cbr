@@ -1,0 +1,98 @@
+/* Common style  */
+.img-gray {
+    filter: grayscale(100%);
+}
+
+.text-highlight {
+    color: #E76F51;
+}
+
+/* Header  */
+header {
+    background-color: #264653;
+}
+
+header p {
+    color: #E0E0E0;
+}
+
+.honda-cbr-btn {
+    background-color: #E76F51;
+}
+
+/* Featured bike style  */
+.underline-p {
+    position: relative;
+    color: #E76F51;
+}
+
+.underline-p::after {
+    content: '';
+    position: absolute;
+    width: 59px;
+    height: 1.5px;
+    background: #E76F51;
+    top: 20px;
+    left: 34px;
+    bottom: 0;
+}
+
+/* Latest news style  */
+.latest-honda-btn-active {
+    border: none;
+    color: white;
+    background-color: #E76F51;
+}
+
+.latest-honda-btn-active:hover {
+    background: none;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+}
+
+.latest-honda-btn {
+    background: none;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+}
+
+.latest-honda-btn:hover {
+    border: none;
+    color: white;
+    background-color: #E76F51;
+}
+
+/* Happy client style  */
+
+.happy-client img {
+    width: 149px;
+    height: 149px;
+}
+
+.happy-client .client-img3 {
+    border-radius: 50%;
+}
+
+.star-icon .fa-star {
+    color: #E77C40;
+}
+
+/* Asked questions area style  */
+.accordion-item {
+    border: 2px solid #D5E5FB !important;
+    margin: 13px ;
+}
+
+/* Others bike style  */
+.others-bike h5 {
+    padding-bottom: 10px;
+}
+
+.others-bike img {
+    width: 100%;
+}
+
+.others-bike img:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s ease-in;
+}
